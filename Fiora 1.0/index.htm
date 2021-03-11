@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/index.js"></script>
+  <script src="js/ht-feed.js"></script>
+  <title>Fiora</title>
+</head>
+<body>
+	<header id="header">
+      <nav>
+      <p onclick="toogleMenu()">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </p>
+      <h1 class="logo">Fi<span>o</span>ra</h1>
+      <p onclick="myFunc(2)">
+        <i class="fa fa-bell" aria-hidden="true"></i>
+      </p>
+      </nav>
+  </header>
+  <aside id="sideMenu">
+    <p onclick="toogleMenu()">
+        <i class="fa fa-close" aria-hidden="true"></i>
+    </p>
+  </aside>
+  <br />
+  <main id="main">
+    <section id="categories">
+    <p>Find your choice</p>
+    <br />
+      <table border="0">
+        <tbody>
+          <tr>
+            <td>
+            <a href="#">
+              outdoor 
+            <br />
+            <img src="ot.png" alt="" />
+            </a>
+            </td>
+            <td>
+              <a href="#">
+              indoor
+            <br />
+            <img src="id.png" alt="" />
+              </a>
+            </td>
+            <td>
+              <a href="#">
+              flowers
+            <br />
+            <img src="F2.png" alt="" />
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#">
+              trees
+            <br />
+            <img src="tr.png" alt="" />
+              </a>
+            </td>
+            <td>
+              <a href="#">
+              grass
+            <br />
+            <img src="F2.png" alt="" />
+              </a>
+            </td>
+            <td>
+              <a href="#">
+              plants
+            <br />
+            <img src="F2.png" alt="" />
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#">
+              Seeds
+            <br />
+            <img src="f1.png" alt="" />
+              </a>
+            </td>
+            <td>
+              <a href="#">
+              Soil
+            <br />
+            <img src="soil.png" alt="" />
+              </a>
+            </td>
+            <td>
+              <a href="#">
+              Garden care
+            <br />
+            <img src="f1.png" alt="" />
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#">
+            Pots
+            <br />
+            <img src="f1.png" alt="" />
+              </a>
+            </td>
+            <td>
+              <a href="#">
+              Compounds
+            <br />
+            <img src="f1.png" alt="" />
+              </a>
+            </td>
+            <td>
+              <a href="#">
+              Gifts
+            <br />
+            <img src="f1.png" alt="" />
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="feeds">
+      <p>feeds</p>
+      <div id="fd">
+        
+      </div>
+    </section>
+    <section id="favorite">
+      <p>favorite</p>
+    </section>
+    <section id="shopLi">
+      <p>shopping List</p>
+      <ul id="sList">
+        <li>Total Price : <span id="$total"></span></li>
+      </ul>
+    </section>
+    <section id="sBox">
+      <p>Search</p>
+    </section>
+    <section id="profile">
+      <p>profile</p>
+    </section>
+    <section id="bells">
+      <p>morning</p>
+    </section>
+    <section id="settings">
+      <p>settings</p>
+    </section>
+  </main>
+  <footer id="footer">
+      <ul>
+        <li onclick="myFunc(4)">
+          <i class="fa fa-home" aria-hidden="true">
+          </i>
+            <br />
+            <span class="ff">Home</span>
+        </li>
+        <li onclick="myFunc(0)">
+          <i class="fa fa-feed" aria-hidden="true">
+          </i>
+            <br />
+            <span class="ff">Feeds</span>
+        </li>
+        <li onclick="myFunc(7)">
+          <i class="fa fa-heart" aria-hidden="true">
+          </i>
+            <br />
+            <span class="ff">favorite</span>
+        </li>
+        <li onclick="myFunc(6)">
+          <i class="fa fa-shopping-cart" aria-hidden="true">
+          </i>
+            <br />
+            <span class="ff">List</span>
+        </li>
+        <li onclick="myFunc(5)">
+          <i class="fa fa-search" aria-hidden="true">
+          </i>
+            <br />
+            <span class="ff">Search</span>
+        </li>
+        <li onclick="myFunc(1)">
+          <i class="fa fa-user" aria-hidden="true">
+          </i>
+            <br />
+            <span class="ff">Profile</span>
+        </li>
+      </ul>
+    </footer>
+    <!---
+    <div id="welcome">
+      <div id="about">
+        <h1 class="logo">Fi<span>o</span>ra</h1>
+        <h2>welcome to Fiora</h2>
+        <input type="password" name="log_in" id="log_in" value="" />
+        <br />
+        <button type="button" onclick="$hulTech()">Login</button>
+        <button type="submit" onclick="alert('input user password')">Help</button>
+      </div>
+    </div>
+    -->
+</body>
+</html>
